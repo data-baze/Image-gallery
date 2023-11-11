@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Caches
+.cache/
+.cacheddata/
+
+# Local development settings
+.env
+
+# Database
+db.sqlite3
+
+# Static files (usually collected by Django's "collectstatic" management command)
+static/
+
+# Media files (user-uploaded content)
+media/
+
+# Virtual environment
+venv/
+env/
+
+# Log files
+*.log
+
+# Compiled Python bytecode
+__pycache__/
+
+# macOS
+.DS_Store
+
+# Editor-specific files
+.vscode/
+
+# Dependency folders
+node_modules/
+*.bak
+*.swp
+
+# Ignore compiled Python files in the "myapp/migrations" directory
+myapp/migrations/*.pyc
+myapp/migrations/*.pyo
+myapp/migrations/*.pyd
